@@ -10,6 +10,7 @@
   --contacts-color-footer: rgba(255, 255, 255, 0.6);
   --social-link-color: #afb1b8;
   --work-desc-color: rgba(47, 48, 58, 0.8);
+  --timing-fn: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -146,9 +147,8 @@ a {
   border-radius: 2px;
   background-color: var(--acent-color);
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
-  transform: translateY(1.5px);
 }
 
 .contacts-header-list {
