@@ -9,6 +9,7 @@
   --bg-color-acent: #2f303a;
   --contacts-color-footer: rgba(255, 255, 255, 0.6);
   --social-link-color: #afb1b8;
+  --work-desc-color: rgba(47, 48, 58, 0.8);
 }
 
 * {
@@ -300,10 +301,29 @@ a {
 
 .work-item {
   margin-right: 30px;
+  position: relative;
 }
 
 .work-item:last-child {
   margin-right: 0;
+}
+
+.work-desc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.work-desc-text {
+  background-color: var(--work-desc-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 27px 0;
 }
 
 /* * OUR TEAM */
