@@ -98,6 +98,7 @@ a {
 
 .page-footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .page-header .container {
@@ -453,7 +454,6 @@ a {
 
 .social {
   margin-left: 70px;
-  padding: 20px 0;
 }
 
 .social-title {
