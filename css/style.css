@@ -57,7 +57,7 @@ a {
 /* * HEADER */
 
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo-header,
@@ -491,7 +491,6 @@ a {
   padding: 6px 24px;
 }
 
-.btn-active,
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--acent-color);
