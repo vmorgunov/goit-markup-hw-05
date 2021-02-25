@@ -11,6 +11,9 @@
   --social-link-color: #afb1b8;
   --work-desc-color: rgba(47, 48, 58, 0.8);
   --timing-fn: cubic-bezier(0.4, 0, 0.2, 1);
+  --backdrop-bg: rgba(0, 0, 0, 0.2);
+  --overlay-bg: rgba(33, 150, 243, 0.9);
+  --social-link-bg: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -483,7 +486,7 @@ a {
   padding: 12px 12px;
   border-radius: 50%;
   color: var(--white-color);
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--social-link-bg);
 }
 
 .social-link:hover,
@@ -587,7 +590,7 @@ a {
 }
 
 .overlay {
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: var(--overlay-bg);
   width: 100%;
   height: 100%;
   padding: 63px 24px;
