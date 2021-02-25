@@ -130,6 +130,7 @@ a {
   line-height: 1.1;
   letter-spacing: 0.02em;
   padding: 32px 0;
+  transition: color 250ms var(--timing-fn);
 }
 
 .nav-link:hover,
@@ -168,6 +169,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 32px 0;
+  transition: color 250ms var(--timing-fn);
 }
 
 .contacts-header-link:hover,
@@ -208,6 +210,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-color-footer);
+  transition: color 250ms var(--timing-fn);
 }
 
 .contacts-footer-info:hover,
@@ -461,6 +464,7 @@ a {
   padding: 12px 12px;
   border-radius: 50%;
   color: var(--social-link-color);
+  transition: background-color 250ms var(--timing-fn);
 }
 
 .team-icon-link:hover,
@@ -468,7 +472,7 @@ a {
   background-color: var(--acent-color);
   color: var(--white-color);
   border-radius: 50%;
-  transition: background-color, color 250ms var(--timing-fn);
+  transition: background-color 250ms var(--timing-fn);
 }
 
 .team-icon {
@@ -500,6 +504,7 @@ a {
   margin-right: 30px;
   border: 1px solid var(--social-link-color);
   border-radius: 4px;
+  transition: color 250ms var(--timing-fn);
 }
 
 .partners-link:hover,
@@ -543,6 +548,7 @@ a {
   border-radius: 50%;
   color: var(--white-color);
   background-color: var(--social-link-bg);
+  transition: background-color 250ms var(--timing-fn);
 }
 
 .social-link:hover,
@@ -568,6 +574,7 @@ a {
   border: none;
   padding: 6px 24px;
   cursor: pointer;
+  transition: background-color 250ms var(--timing-fn);
 }
 
 .filter-btn:hover,
