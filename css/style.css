@@ -266,6 +266,12 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
+  transform: scale(1);
+  transition: transform 250ms var(--timing-fn);
+}
+
+.hero-btn:hover {
+  transform: scale(1.2);
 }
 
 /* * MODAL */
