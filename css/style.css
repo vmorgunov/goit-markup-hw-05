@@ -460,8 +460,9 @@ a {
 
 .team-icon-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 16px;
+  padding: 0 32px;
 }
 
 .team-icon-link {
